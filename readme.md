@@ -6,9 +6,14 @@ This project demonstrates how to deploy NVIDIA Ingest on Azure VM NC80 H100   an
 ## Create Azure H100VM :
 - [Follow the steps here ](./create-vm/readme.md)
 
+## Install Pre-requisites
+- [Pre-requisites ](./pre-requisites/readme.md)
+
 ## Deploy NVIDIA-Ingest: Multi-modal data extraction Blueprint
 - [Deploy NV-Ingest ](./deploy-nvingest/readme.md)
 
+## Deploy NVIDIA-Ingest: Multi-modal data extraction Blueprint
+- [Deploy NV-Ingest ](./deploy-nvingest/readme.md)
 
 
  2  bash Miniconda3-latest-Linux-x86_64.sh
