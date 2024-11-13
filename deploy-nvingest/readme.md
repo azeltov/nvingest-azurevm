@@ -174,7 +174,17 @@ f12ffac6c357   nvcr.io/ohlfw0olaadg/ea-participants/paddleocr:0.2.0             
 69a3deda6508   grafana/grafana                                                            "/run.sh"                19 hours ago        Up About an hour             0.0.0.0:3000->3000/tcp, :::3000->3000/tcp                                                                                               grafana-service
 
 ```
-
+## Install nv-ingest client:
+```
+# conda not required, but makes it easy to create a fresh python environment
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+conda create --name nv-ingest python=3.10
+conda activate nv-ingest
+cd client
+pip install -r ./requirements.txt
+pip install .
+```
 ## Test nv-ingest :
 
 After successfully installing the nv-ingest client, run the following CLI command to test multimodal PDF extraction, or you can also run it using the Python client based on the example here.
